@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant;
+}
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+}
+.logo {
+  width: 5%;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.home {
+  display: inline-block;
+  width: 38%;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.home .header_menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.home .header_menu li a {
+  text-decoration: none;
+  color: #272323;
+  font-weight: bold;
+}
+.serach {
+  width: 40%;
+}
+
+.serach_icon {
+  width: 68%;
+  height: 54%;
+  background-color: #f0f0f0;
+  margin-left: 166px;
+  margin-top: 16px;
+  border-radius: 6px;
+}
+.serach_icon i {
+  color: #94979b;
+  padding: 10px 17px 0px 20px;
+  /* padding-right: 17px;
+  padding-left: 20px; */
+}
+.serach_icon input {
+  width: 80%;
+  height: 94%;
+  border: none;
+  background-color: #f0f0f0;
+  outline: none;
+}
+.cart_menu {
+  width: 17%;
+  /* border: 1px solid darkgoldenrod; */
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.profile {
+  /* border: 1px solid blue; */
+  padding: 10px;
+}
+.profile i {
+  color: #0c0d0e;
+  padding-left: 9px;
+  font-size: 20px;
+}
+.profile h6 {
+  font-size: 12px;
+}
+.profile_bag h6{
+  padding-left: 9px;
+}
+header .home .menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 69px;
+}
+header .home .submenu {
+  position: absolute;
+  left: 0px;
+  top: 72px;
+  width: auto;
+}
+
+.sub_menu_ul {
+  border: 1px solid rgb(231, 228, 233);
+  display: none;
+  padding-top: 20px;
+}
+header .home .menu:hover {
+  border-bottom: 2px solid red;
+}
+header .home .menu:hover .sub_menu_ul {
+  display: block;
+}
+.submenu{
+  display: flex;
+}
+
+.submenu h4 {
+  color: red;
+  width: 200px;
+  text-transform: capitalize;
+}
+.sub_menu_ul {
+  padding-left: 20px;
+}
+.sub_menu_li {
+  list-style: none;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: gray;
+}
+.sub_menu_h1 {
+  border: 1px solid;
+  color: #aa98982b;
+  width: 160px;
+}
+header .home .menu_women:hover {
+  border-bottom: 2px solid rgb(238 0 202);
+}
+.submenu_women h4{
+  color: rgb(238 0 202);
+}
+
+header .home .menu_kids:hover{
+  border-bottom: 2px solid rgb(246, 106, 6);
+}
+.submenu_kids h4{
+  color: rgb(246, 106, 6);
+}
+
+header .home .menu_home_living:hover{
+  border-bottom: 2px solid rgb(223, 155, 18);
+}
+.submenu_home_living h4{
+  color: rgb(223, 155, 18);
+}
+
+header .home .menu-beauty:hover{
+  border-bottom: 2px solid rgb(11, 213, 189);
+}
+.submenu_beauty h4{
+  color: rgb(11, 213, 189);
+}
